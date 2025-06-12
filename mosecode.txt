@@ -1,0 +1,11 @@
+from preloaded import MORSE_CODE
+
+def decode_morse(morse_code):
+    morse-code = morse_code.strip()
+    palabras = morse-code.split('  ')
+    resultado[]
+    for palabras in palabras:
+        letras = palabra.split(' ')
+        palabra =''.join(MORSE_CODE[letra]for letra in letras)
+        resultado.append(palabra)
+        return' 'join(resultado)
