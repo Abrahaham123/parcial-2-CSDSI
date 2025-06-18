@@ -1,0 +1,16 @@
+def python_snake(xs):
+    matrix = []
+    
+    w=0    
+    for i in range(len(xs)):
+        if xs[i]%2 == 1:
+           w += xs[i]*-1
+        else:
+           w += xs[i]     
+        row = []
+        matrix.append(row)
+    long = len(xs)
+    may = max(xs)
+    pivote = 3
+    
+    return matrix
